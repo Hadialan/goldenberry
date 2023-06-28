@@ -1,0 +1,50 @@
+
+.face-image {
+    position: relative;
+    text-align: center;
+    max-width: 100%;
+}
+.face-image h1 {
+    font-size:8vw;
+
+}
+span {
+    color: brown;
+}
+.banner-text h1{
+    position: absolute;
+    top: 60%;
+    padding: 30px;
+    font-size: 110px;
+    font-weight: 100px;
+    left: 25%;
+
+}
+.banner-text h4{
+    position: absolute;
+    top: 75%;
+    padding: 30px;
+    font-size: 55px;
+    font-weight: 100px;
+    left: 52%;
+
+}
+button {
+    position: absolute;
+    top: 89%;
+    left: 50%;
+}
+.container {
+    margin-top: 20px;
+}
+.btn {
+    color: red;
+}
+#carouselExampleFade {
+    margin-top: 20px;
+}
+@media screen (min-width: 601px) and (max-width: 600px) {
+    .face-image h1 {
+      font-size: 80px;
+    }
+  }
